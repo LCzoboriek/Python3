@@ -1,0 +1,16 @@
+PURCHASE = input('How much is the purchase amount: ')
+price = float(PURCHASE)
+
+INSTALLMENT_AMOUNTS = input('How many installment amounts would you like to spread that over?: ')
+months = int(INSTALLMENT_AMOUNTS)
+
+COST_OF_SPREAD = (price * 0.5)
+spread_cost = float(COST_OF_SPREAD)
+
+TOTAL_PER_MONTH = (COST_OF_SPREAD + price) / months
+total_per_month = float(TOTAL_PER_MONTH)
+
+
+print('This is how much per month with interest you will pay ', float(total_per_month))
+
+
