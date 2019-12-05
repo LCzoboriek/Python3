@@ -1,0 +1,10 @@
+MILES_DRIVEN = input('How many miles have you driven today? ')
+miles_driven = float(MILES_DRIVEN)
+
+GAS_USED = input('How much gas did you put in in gallons? ')
+gas_used = float(GAS_USED)
+
+MILES_PER_GALLON = miles_driven / gas_used
+mpg = float(MILES_PER_GALLON)
+
+print(mpg)
